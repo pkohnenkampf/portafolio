@@ -7,6 +7,45 @@
   width: 40%;
 }
 
+.w-60{
+  width: 60%;
+}
+
+.w-85{
+  width: 85%;
+}
+
+
+.list-group .list-group-item{
+
+  background-color: rgba(255, 255, 255, 0.75);
+
+  color: var(--bg-principal);
+
+  font-weight: var(--font-medium);
+  border: none;
+
+}
+
+.list-group .list-group-item .badge{
+  background-color: var(--color-auxiliar);
+  color: var(--color-blanco);
+}
+
+.list-group .list-group-item.list-group-item-action.active{
+  background-color: rgba(255, 255, 255, 0.4);
+  color: var(--color-blanco);
+}
+
+.list-group .list-group-item.list-group-item-action.active .badge{
+  background-color: 
+  color: var(--color-blanco);
+}
+
+
+
+/** Header **/
+
 .header {
   background-color: var(--bg-secundario);
 }
@@ -16,6 +55,9 @@
   -webkit-box-shadow: 0px 11px 17px 0px rgba(19,20,31,1);
   -moz-box-shadow: 0px 11px 17px 0px rgba(19,20,31,1);
   box-shadow: 0px 11px 17px 0px rgba(19,20,31,1);
+  border-radius: 0 0 8px 8px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .nav-item .nav-link {
@@ -48,8 +90,14 @@
   background-color: var(--bg-principal);
 }
 
+.about-me h2, .studies h2{
+  border-bottom: 2px solid var(--color-blanco);
+}
+
 .about-me .presentation{
-  border: 8px solid var(--color-auxiliar);
+  font-size: 14px;
+  background: var(--color-auxiliar);
+  border-radius: 100px;
 }
 
 .about-me .skills .list-group .list-group-item{
@@ -57,6 +105,7 @@
   color: var(--color-blanco);
   font-weight: var(--font-medium);
   border: none;
+
 }
 
 .about-me .skills .list-group .list-group-item .badge{
@@ -64,18 +113,16 @@
   color: var(--color-blanco);
 }
 
-.badge.expert{
-  background-color: var(--color-auxiliar);
-}
-
 .badge.intermediate{
   background-color: var(--color-auxiliar);
 }
 
-.badge.beginer{
-  background-color: var(--color-auxiliar);
-}
 
+/** Studies **/
+
+.studies{
+  background-color: var(--bg-secundario);
+}
 
 
 
