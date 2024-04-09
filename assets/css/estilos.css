@@ -1,3 +1,4 @@
+/** General **/
 * {
   padding: 0;
   margin: 0;
@@ -15,16 +16,11 @@
   width: 85%;
 }
 
-
 .list-group .list-group-item{
-
   background-color: rgba(255, 255, 255, 0.75);
-
   color: var(--bg-principal);
-
   font-weight: var(--font-medium);
   border: none;
-
 }
 
 .list-group .list-group-item .badge{
@@ -36,13 +32,6 @@
   background-color: rgba(255, 255, 255, 0.4);
   color: var(--color-blanco);
 }
-
-.list-group .list-group-item.list-group-item-action.active .badge{
-  background-color: 
-  color: var(--color-blanco);
-}
-
-
 
 /** Header **/
 
@@ -90,7 +79,10 @@
   background-color: var(--bg-principal);
 }
 
-.about-me h2, .studies h2{
+.about-me h2,
+.studies h2,
+.experience h2,
+.portfolio h2 {
   border-bottom: 2px solid var(--color-blanco);
 }
 
@@ -124,6 +116,18 @@
   background-color: var(--bg-secundario);
 }
 
+
+/** Experience **/
+
+.experience{
+  background-color: var(--bg-principal);
+}
+
+/** Portfolio **/
+
+.portfolio{
+  background-color: var(--bg-secundario);
+}
 
 
 
