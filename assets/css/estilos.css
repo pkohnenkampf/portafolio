@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.w-40{
+  width: 40%;
+}
+
 .header {
   background-color: var(--bg-secundario);
 }
@@ -36,6 +40,40 @@
 
 .nav-item.nav-item-important:hover .nav-link {
   color: var(--color-auxiliar);
+}
+
+/** About me **/
+
+.about-me{
+  background-color: var(--bg-principal);
+}
+
+.about-me .presentation{
+  border: 8px solid var(--color-auxiliar);
+}
+
+.about-me .skills .list-group .list-group-item{
+  background-color: rgba(255, 255, 255, 0.4);
+  color: var(--color-blanco);
+  font-weight: var(--font-medium);
+  border: none;
+}
+
+.about-me .skills .list-group .list-group-item .badge{
+  background-color: var(--color-auxiliar);
+  color: var(--color-blanco);
+}
+
+.badge.expert{
+  background-color: var(--color-auxiliar);
+}
+
+.badge.intermediate{
+  background-color: var(--color-auxiliar);
+}
+
+.badge.beginer{
+  background-color: var(--color-auxiliar);
 }
 
 
