@@ -39,6 +39,13 @@
   background-color: var(--bg-secundario);
 }
 
+.header h1{
+  color: var(--color-auxiliar);
+  font-size: 48px;
+  font-weight: var(--font-bold);
+  background-color: var(--color-blanco);
+}
+
 .navbar {
   background-color: var(--bg-principal);
   -webkit-box-shadow: 0px 11px 17px 0px rgba(19,20,31,1);
